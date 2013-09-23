@@ -1,0 +1,6 @@
+[submodule "cookbooks/yum"]
+	path = cookbooks/yum
+	url = git@github.com:bijaybisht/yum.git
+[submodule "cookbooks/littlechef"]
+	path = cookbooks/littlechef
+	url = git@github.com:bijaybisht/cookbook-littlechef.git
