@@ -1,0 +1,32 @@
+{
+  "name": "eng-ginkgo2",
+  "chef_type": "role",
+  "json_class": "Chef::Role",
+  "run_list" : [ "recipe[ginkgo2]" ],
+  "default_attributes": {
+    "ginkgo2": {
+
+      "user": {
+        "account": "build",
+        "name": "Bijay Singh Bisht (Build)",
+        "email": "bijay.singh@guavus.com"
+      },
+
+      "machine": {
+        "name": "smrepo",
+        "login": "bijay.singh",
+        "password": "********"
+      },
+      
+      "fqdn": {
+        "name": "smrepo.sm.guavus.com",
+        "login": "bijay.singh",
+        "password": "********"
+      },
+      
+      "packages_url" : "http://packages.singlestopconfigure.net",
+      "mavenrepo_url" : "http://10.10.10.128:8081/artifactory",
+      "git_url" : "https://smrepo.sm.guavus.com/git/repos/remote"
+    }
+  }
+}
