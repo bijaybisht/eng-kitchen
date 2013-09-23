@@ -3,7 +3,7 @@ Prerequisite
 * Use git to checkout this repository.
 * Install chef.  `curl -L https://www.opscode.com/chef/install.sh | bash`
 * `chef-solo -c solo.rb -j littlechef.json`
-
+* Edit .ssh/config, add entries for the host to be configured. And also add public key to the authorized.
 
 Overview
 ========
