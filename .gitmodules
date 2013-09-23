@@ -4,3 +4,12 @@
 [submodule "cookbooks/littlechef"]
 	path = cookbooks/littlechef
 	url = git@github.com:bijaybisht/cookbook-littlechef.git
+[submodule "cookbooks/users"]
+	path = cookbooks/users
+	url = git@github.com:bijaybisht/users.git
+[submodule "cookbooks/sudo"]
+	path = cookbooks/sudo
+	url = git@github.com:bijaybisht/sudo.git
+[submodule "site-cookbooks"]
+	path = site-cookbooks
+	url = git@github.com:bijaybisht/site-cookbooks.git
