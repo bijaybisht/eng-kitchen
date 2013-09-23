@@ -1,0 +1,3 @@
+{
+  "run_list": [ "recipe[yum::yum]", "recipe[yum::epel]", "recipe[littlechef]" ]
+}
