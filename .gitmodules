@@ -1,18 +1,18 @@
 [submodule "cookbooks/yum"]
 	path = cookbooks/yum
-	url = git@github.com:bijaybisht/yum.git
+	url = https://github/bijaybisht/yum.git
 [submodule "cookbooks/littlechef"]
 	path = cookbooks/littlechef
-	url = git@github.com:bijaybisht/cookbook-littlechef.git
+	url = https://github/bijaybisht/cookbook-littlechef.git
 [submodule "cookbooks/sudo"]
 	path = cookbooks/sudo
-	url = git@github.com:bijaybisht/sudo.git
+	url = https://github/bijaybisht/sudo.git
 [submodule "site-cookbooks"]
 	path = site-cookbooks
-	url = git@github.com:bijaybisht/site-cookbooks.git
+	url = https://github/bijaybisht/site-cookbooks.git
 [submodule "cookbooks/group"]
 	path = cookbooks/group
-	url = git@github.com:bijaybisht/chef-group.git
+	url = https://github/bijaybisht/chef-group.git
 [submodule "cookbooks/user"]
 	path = cookbooks/user
-	url = git@github.com:bijaybisht/chef-user.git
+	url = https://github/bijaybisht/chef-user.git
